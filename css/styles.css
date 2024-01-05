@@ -3,6 +3,11 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
 }
+.header {
+  text-align: justify;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
 .header-logo {
   color:  #2E2F42;
     font-family: Raleway;
