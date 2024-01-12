@@ -45,28 +45,16 @@ color: #404bbf;
 .contacts {
   font-style: normal;
 }
-.contacts-mail{
+.contacts-mail-tel{
   color:  #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-mail:hover{
+.contacts-mail-tel:hover{
   color: #404bbf;
 }
-.contacts-mail:focus{
-  color: #404bbf;
-}
-.contacts-tel{
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.contacts-tel:hover {
-  color: #404bbf;
-}
-.contacts-tel:focus {
+.contacts-mail-tel:focus{
   color: #404bbf;
 }
 .hero-section{
@@ -75,7 +63,7 @@ color: #404bbf;
 .hero-title{
   color:  #FFF;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -114,7 +102,7 @@ color: #404bbf;
 .team-section{
   background-color: #F4F4FD;
 }
-.team-title{
+.title{
   color: #2E2F42;
   text-align: center;
   font-size: 36px;
@@ -125,7 +113,7 @@ color: #404bbf;
 .team-partner{
   background-color: #ffffff;
 }
-.team-partner-name{
+.name-title{
   color:  #2E2F42;
   text-align: center;
   font-size: 20px;
@@ -133,30 +121,8 @@ color: #404bbf;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team-partner-position{
+.name-position{
 color:  #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.portfolio-title{
-  color: #2E2F42;
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.portfolio-product-title{
-  color:  #2E2F42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.portfolio-product{
-  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
