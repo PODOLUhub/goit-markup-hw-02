@@ -63,7 +63,6 @@ color: #404bbf;
 .hero-title{
   color:  #FFF;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -73,7 +72,7 @@ color: #404bbf;
 .hero-button {
   background:  #4D5AE5;
   color:  #FFF;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
