@@ -3,32 +3,29 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+a {
+  text-decoration: none;
+}
+ul, ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .header {
-  text-align: justify;
-  line-height: 1.5;
-  text-transform: uppercase;
-    color: #2E2F42;
-      font-family: "Raleway";
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 21px;
-      letter-spacing: 0.54px;
-      text-transform: uppercase;
-    }
-.list {
-  font-size: 16px;
-  font-weight: 500;
-  color: #2E2F42;
-  line-height: 1.5;
-  letter-spacing:  0.02em;
-  
+  border-bottom: 1px solid #E7E9FC;
 }
-.list:hover{
-color: #404bbf;
+.container{
+  width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-.list:focus {
-  color: #404bbf;
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
 }
 .logo{
   color: #4D5AE5;
@@ -38,24 +35,56 @@ color: #404bbf;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-accent {
   color: #2e2f42;
 }
-.contacts {
-  font-style: normal;
+.nav-list{
+  display: flex;
+  gap: 40px;
 }
-.contacts-mail-tel{
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2E2F42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+}
+
+.nav-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+  margin-left: auto;
+}
+.address-list{
+  display: flex;
+  gap: 40px;
+}
+.address-link{
   color:  #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-mail-tel:hover{
+.address-linkl:hover{
   color: #404bbf;
 }
-.contacts-mail-tel:focus{
+.address-link:focus{
   color: #404bbf;
+}
+
+
+.main-hero-container{
+  height: 600px;
 }
 .hero-section{
   background-color: #2e2f42;
@@ -68,6 +97,11 @@ color: #404bbf;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  max-width: 496px;
+  margin: auto;
+
 }
 .hero-button {
   background:  #4D5AE5;
@@ -77,6 +111,14 @@ color: #404bbf;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  margin-top: 48px;
+  margin: ;
 }
 .hero-button:hover{
   background-color: #404BBF;
